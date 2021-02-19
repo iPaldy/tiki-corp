@@ -12,7 +12,7 @@
                         <div class="col-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <img src="<?= base_url('assets/img/logo_tiki.png'); ?>" class="mb-4" alt="logo">
+                                    <img src="<?= base_url('assets/img/tiki/logo.png'); ?>" class="mb-4" alt="logo">
                                 </div>
                                 <form class="user">
                                     <div class="form-group">
