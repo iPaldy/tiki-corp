@@ -9,12 +9,13 @@
             <div class="col-md-4">
                 <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" class="card-img" alt="profile-pict">
             </div>
+
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title"><?= $user['name']; ?></h5>
-                    <p class="card-text"><?= $user['email']; ?><br>
-                        <?= $user['phone_number']; ?><br>
-                        <?= $user['role_id']; ?>
+                    <p class="card-text">
+                        <?= $user['email']; ?><br>
+                        <?= $user['phone_number']; ?>
                     </p>
                     <p class="card-text"><small class="text-muted">Member Since <?= date('d F Y', $user['date_created']) ?></small></p>
                 </div>
